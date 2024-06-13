@@ -1,0 +1,40 @@
+
+body{ 
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+}
+#Button{
+  background-color: black;
+  display: block;
+}
+#board{
+  background-color: black;
+  border-top: 5px solid #001eff;
+  border-bottom: 5px solid #001eff;
+  display: none;
+}
+#title{
+  font-size: 125px;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #4DEEEA;
+  display: block;
+}
+#start-button{
+  font-size: 75px;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #F000FF;
+  display: block;
+}
+p{
+  font-size: 25px;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #FFAA00;
+}
